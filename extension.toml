@@ -6,9 +6,9 @@ authors = ["Ben Ehmke"]
 description = "EJX template support for Zed"
 repository = "https://github.com/bemky/zed-ejx"
 
-[grammars.embedded_template]
+[grammars.embedded_javascript_template]
 repository = "https://github.com/bemky/tree-sitter-embedded-template"
-commit = "20ce35a491837cd9add3b27e84e3710a1abca109"
+commit = "d2cd4aae8dc698269620d4d57c975c68fd9750a3"
 
 [icons]
 "*.ejx" = "html"

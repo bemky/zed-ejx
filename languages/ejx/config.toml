@@ -1,6 +1,6 @@
-name = "EJS"
-grammar = "embedded_template"
-path_suffixes = ["ejs", "eta", "ejx"]
+name = "EJX"
+grammar = "embedded_javascript_template"
+path_suffixes = ["ejx"]
 brackets = [
   { start = "<%", end = "%>", close = true, newline = false },
   { start = "[[", end = "]]", close = true, newline = false },
